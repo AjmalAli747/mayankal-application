@@ -1,12 +1,15 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
+import Card from './Components/Card'
+import Navbar from './Components/Navbar'
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <h1>Hello Wolrd</h1>
-    </div>
-  );
+    <>
+      <Navbar />
+      <Card />
+
+    </>
+  )
 }
 
-export default App;
+export default App

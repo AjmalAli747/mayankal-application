@@ -1,0 +1,96 @@
+
+
+{
+    "data" : [
+        {
+            "id": 0,
+            "title" : "Today’s Earning",
+            "price": "14,000"
+
+        },
+        {
+            "id": 1,
+            "title" : "Today’s Earning",
+            "price": "15,000"
+
+        },
+        {
+            "id": 2,
+            "title" : "Today’s Earning",
+            "price": "15,000"
+
+        }
+    ],
+
+    "productList" : [
+        {
+            "id": 0,
+            "img_products" : "https://cdn.pixabay.com/photo/2017/07/16/22/22/bath-oil-2510783_960_720.jpg",
+            "title_products" : "This is a title of the page",
+            "prict_products" : "12,000",
+            "des_products" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae asperiores nihil esse autem ad minima provident, porro molestiae sunt, sit eveniet voluptatum illo vero fugit praesentium tempora reiciendis at odio tenetur obcaecati. Ex, voluptatem aperiam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae asperiores nihil esse autem ad minima provident, porro molestiae sunt, sit eveniet voluptatum illo vero fugit praesentium tempora reiciendis at odio tenetur obcaecati. Ex, voluptatem aperiam."
+        },
+        {
+            "id": 1,
+            "img_products" : "https://cdn.pixabay.com/photo/2020/04/14/18/13/honey-5043708_960_720.jpg",
+            "title_products" : "This is a title of the page",
+            "prict_products" : "13,000",
+            "des_products" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae asperiores nihil esse autem ad minima provident, porro molestiae sunt, sit eveniet voluptatum illo vero fugit praesentium tempora reiciendis at odio tenetur obcaecati. Ex, voluptatem aperiam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae asperiores nihil esse autem ad minima provident, porro molestiae sunt, sit eveniet voluptatum illo vero fugit praesentium tempora reiciendis at odio tenetur obcaecati. Ex, voluptatem aperiam."
+        },
+        {
+            "id": 2,
+            "img_products" : "https://cdn.pixabay.com/photo/2018/01/10/13/47/essential-oil-3073901_960_720.jpg",
+            "title_products" : "This is a title of the page",
+            "prict_products" : "14,000",
+            "des_products" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae asperiores nihil esse autem ad minima provident, porro molestiae sunt, sit eveniet voluptatum illo vero fugit praesentium tempora reiciendis at odio tenetur obcaecati. Ex, voluptatem aperiam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae asperiores nihil esse autem ad minima provident, porro molestiae sunt, sit eveniet voluptatum illo vero fugit praesentium tempora reiciendis at odio tenetur obcaecati. Ex, voluptatem aperiam."
+        }
+    ],
+
+    "clientReview" : [
+        {
+            "id": 0,
+            "clientReview_img" : "https://cdn.pixabay.com/photo/2017/07/16/22/22/bath-oil-2510783_960_720.jpg",
+            "clientReview_name" : "Robert E. Prince",
+            "clientReview_Engagement" : "Engagement",
+            "p_content" : "It went through such rapid contortions that the little bear was forced to change his hold on it so many times he became confused in the darkness, and could not, for the life of him, tell whether he held the sheep right side up, or upside down. But that point was decided for him a moment later by the animal itself, who, with a sudden twist, jabbed its horns so hard into his lowest ribs that he gave a grunt of anger and disgust. Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae asperiores nihil esse autem ad minima provident, porro molestiae sunt, sit eveniet voluptatum illo vero fugit praesentium tempora reiciendis at odio tenetur obcaecati. Ex, voluptatem aperiam."
+        },
+        {
+            "id": 1,
+            "clientReview_img" : "https://cdn.pixabay.com/photo/2017/07/16/22/22/bath-oil-2510783_960_720.jpg",
+            "clientReview_name" : "Bret M. Smith",
+            "clientReview_Engagement" : "Lead Responce",
+            "p_content" : "Out of another, I get a lovely view of the bay and a little private wharf belonging to the estate. There is a beautiful shaded lane that runs down there from the house. I always fancy I see people walking in these numerous paths and arbors, but John has cautioned me not to give way to fancy in the least. He says that with my imaginative power and habit of story-making a nervous weakness like mine is sure to lead to all manner of excited fancies and that I ought to use my will and good sense to check the tendency. So I try. Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae asperiores nihil esse autem ad minima provident, porro molestiae sunt, sit eveniet voluptatum illo vero fugit praesentium tempora reiciendis at odio tenetur obcaecati. Ex, voluptatem aperiam."
+        },
+        {
+            "id": 2,
+            "clientReview_img" : "https://cdn.pixabay.com/photo/2017/07/16/22/22/bath-oil-2510783_960_720.jpg",
+            "clientReview_name" : "James J. Turner",
+            "clientReview_Engagement" : "Target Aud",
+            "p_content" : "Can I get you anything else? David asked. It was a question he asked a hundred times a day and he always received the same answer. It had become such an ingrained part of his daily routine that he had to step back and actively think when he heard the little girl's reply. Nobody had before answered the question the way that she did, and David didn't know how he should respond. Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae asperiores nihil esse autem ad minima provident, porro molestiae sunt, sit eveniet voluptatum illo vero fugit praesentium tempora reiciendis at odio tenetur obcaecati. Ex, voluptatem aperiam."
+        },
+        {
+            "id": 3,
+            "clientReview_img" : "https://cdn.pixabay.com/photo/2017/07/16/22/22/bath-oil-2510783_960_720.jpg",
+            "clientReview_name" : "Angelo O. Franz",
+            "clientReview_Engagement" : "Web Developer",
+            "p_content" : "The river slowly meandered through the open space. It had hidden secrets that it didn't want to reveal. It had a well-planned strategy to appear calm, inviting, and appealing. That's how the river lured her unknowing victims to her water's edge. Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae asperiores nihil esse autem ad minima provident, porro molestiae sunt, sit eveniet voluptatum illo vero fugit praesentium tempora reiciendis at odio tenetur obcaecati. Ex, voluptatem aperiam."
+        },
+        {
+            "id": 4,
+            "clientReview_img" : "https://cdn.pixabay.com/photo/2017/07/16/22/22/bath-oil-2510783_960_720.jpg",
+            "clientReview_name" : "Jesse M. Pape",
+            "clientReview_Engagement" : "Product Manager",
+            "p_content" : "Are you getting my texts??? she texted to him. He glanced at it and chuckled under his breath. Of course he was getting them, but if he wasn't getting them, how would he ever be able to answer? He put the phone down and continued on his project. He was ignoring her texts and he planned to continue to do so. Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae asperiores nihil esse autem ad minima provident, porro molestiae sunt, sit eveniet voluptatum illo vero fugit praesentium tempora reiciendis at odio tenetur obcaecati. Ex, voluptatem aperiam."
+        },
+        {
+            "id": 5,
+            "clientReview_img" : "https://cdn.pixabay.com/photo/2017/07/16/22/22/bath-oil-2510783_960_720.jpg",
+            "clientReview_name" : "Richard D. Rutledge",
+            "clientReview_Engagement" : "Marketing",
+            "p_content" : "He scolded himself for being so tentative. He knew he shouldn't be so cautious, but there was a sixth sense telling him that things weren't exactly as they appeared. It was that weird chill that rolls up your neck and makes the hair stand on end. He knew that being so tentative could end up costing him the job, but he learned that listening to his sixth sense usually kept him from getting into a lot of trouble. Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae asperiores nihil esse autem ad minima provident, porro molestiae sunt, sit eveniet voluptatum illo vero fugit praesentium tempora reiciendis at odio tenetur obcaecati. Ex, voluptatem aperiam."
+        }
+    ]
+}
+
+
+
