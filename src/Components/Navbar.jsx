@@ -2,8 +2,8 @@ import React, { useState } from "react";
 import "../App.css";
 import { Box, Button, Typography, Modal } from "@mui/material";
 
-import { ToastContainer, toast } from 'react-toastify';
-import 'react-toastify/dist/ReactToastify.css';
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 const style = {
   position: "absolute",
@@ -18,35 +18,33 @@ const style = {
 };
 
 const Navbar = () => {
-
   const [open, setOpen] = React.useState(false);
   const handleOpen = () => setOpen(true);
-  const handleClose = () => setOpen(false)
+  const handleClose = () => setOpen(false);
   const [userName, setUserName] = useState("");
   const [userEmail, setUserEmail] = useState("");
   const [userPassowrd, setUserPassowrd] = useState("");
   const [userNumber, setUserNumber] = useState("");
   const [userMessage, setUserMessage] = useState("");
 
-
   const submitData = (e) => {
     e?.preventDefault();
-    if(userName === ""){
+    if (userName === "") {
       toast("Enter User Name");
-    }else if(userEmail === ""){
-      toast("Enter User Email")
-    }else if(userPassowrd === ""){
-      toast("Enter User Email")
-    }else if(userNumber === ""){
-      toast("Enter User Email")
-    }else if(userMessage === ""){
-      toast("Enter User Email")
-    }else{
-      toast(userName)
-      console.log(userName,userEmail, userPassowrd,userNumber,userMessage);
-      handleClose(false)
+    } else if (userEmail === "") {
+      toast("Enter User Email");
+    } else if (userPassowrd === "") {
+      toast("Enter User Email");
+    } else if (userNumber === "") {
+      toast("Enter User Email");
+    } else if (userMessage === "") {
+      toast("Enter User Email");
+    } else {
+ 
+      console.log(userName, userEmail, userPassowrd, userNumber, userMessage);
+      handleClose(false);
     }
-  }
+  };
 
   return (
     <>
@@ -64,7 +62,6 @@ const Navbar = () => {
       </div>
 
       <div>
-  
         <Modal
           open={open}
           onClose={handleClose}
@@ -74,15 +71,31 @@ const Navbar = () => {
           <Box sx={style}>
             <form action="" onSubmit={submitData}>
               <label htmlFor="name">Name</label>
-              <input type="text"   onChange={(e) => setUserName(e.target.value)}/>
+              <input
+                type="text"
+                onChange={(e) => setUserName(e.target.value)}
+              />
               <label htmlFor="email">Email</label>
-              <input type="email"   onChange={(e) => setUserEmail(e.target.value)} />
+              <input
+                type="email"
+                onChange={(e) => setUserEmail(e.target.value)}
+              />
 
               <label htmlFor="number">Password</label>
-              <input type="password"    onChange={(e) => setUserPassowrd(e.target.value)}/>
+              <input
+                type="password"
+                onChange={(e) => setUserPassowrd(e.target.value)}
+              />
               <label htmlFor="message">Number</label>
-              <input type="number"    onChange={(e) => setUserNumber(e.target.value)}/>
-              <textarea   cols="30" rows="10" onChange={(e) => setUserMessage(e.target.value)}></textarea>
+              <input
+                type="number"
+                onChange={(e) => setUserNumber(e.target.value)}
+              />
+              <textarea
+                cols="30"
+                rows="10"
+                onChange={(e) => setUserMessage(e.target.value)}
+              ></textarea>
 
               <Button variant="contained" type="submit">
                 Submit
@@ -93,17 +106,17 @@ const Navbar = () => {
       </div>
 
       <ToastContainer
-position="top-center"
-autoClose={1000}
-hideProgressBar={false}
-newestOnTop={false}
-closeOnClick
-rtl={false}
-pauseOnFocusLoss
-draggable
-pauseOnHover
-theme="light"
-/>
+        position="top-center"
+        autoClose={1000}
+        hideProgressBar={false}
+        newestOnTop={false}
+        closeOnClick
+        rtl={false}
+        pauseOnFocusLoss
+        draggable
+        pauseOnHover
+        theme="light"
+      />
     </>
   );
 };
